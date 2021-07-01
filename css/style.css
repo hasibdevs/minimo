@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+
+}
+img{
+    max-width: 100%;
+
+}
+.container{
+    width: calc(100% - 200px);
+    margin: auto;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1-1{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+.col-2-1{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+/**********.pad-left{
+    padding-left: 100px;
+}
+.pad-right{
+    padding-right: 100px;
+}*******/
+
+header{
+    padding: 20px 0px;
+
+}
+.logo{
+    width: 15%;
+    flex: 0 0 auto;
+}
+
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 30px;
+    display: block;
+}
+nav ul li a:hover{
+    background: black;
+    color: white;
+}
+
+/******************* bannersection css*******************/
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+/*********************blog section***********************/
+.blog-section{}
+article{}
+article span{
+    text-transform: uppercase;
+    color: #33333378;
+    display: block;
+}
+article h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+article h1 a{
+    color: #333;
+    text-transform: capitalize;
+}
+article h1 a:hover{}
+article p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+article a{
+    text-transform: uppercase;
+    color: #33333378;
+    text-decoration: none;
+}
+article img{
+    width: 100%;
+} 
+
+/*********************footer section***********************/
+footer{
+    background: #F0F0F0;
+}
+footer .col-2-1{
+    
+padding: 30px 10px;
+}
+ul.footer-menu{}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+ul.footer-menu li a:hover{
+    opacity: 0.5;
+}
+
+
+
+ul.social-link{
+    justify-content: flex-end;
+}
+ul.social-link li{}
+ul.social-link li span{
+    display: block;
+    color: black;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+ul.social-link li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-right: 30px;
+    display: block;
+    padding-left: 30px;
+}
+ul.social-link li a:hover{
+    color: red;
+}
+
+.button{    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button a:hover {
+    color: white;
+    background: black;
+}
+
